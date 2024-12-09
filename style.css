@@ -1,0 +1,125 @@
+
+.hi{
+    background: rgb(240,240,240);
+    background: linear-gradient(321deg, rgba(240,240,240,1) 0%, rgba(6,6,6,1) 35%, rgba(231,231,231,1) 100%);
+}
+  .pi
+{
+  background: rgb(240,240,240);
+  background: linear-gradient(321deg, rgba(240,240,240,1) 19%, rgba(6,6,6,1) 52%, rgba(231,231,231,1) 100%);color: white;
+display: flex;
+height: 100vh;}
+
+
+
+
+
+
+.img
+{
+  height: 60px;
+  width: 200px;
+}
+.html,.css,.javascript,.bootsarp,.jquery
+{
+  top: 10px;
+  margin: 5;
+  position: relative;
+  padding: 20px;
+
+}
+.about
+{
+  justify-content: center;
+
+}
+.parent ,.p{
+  left: 100px;
+  padding: 20px;
+}
+.picture{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    display: flex;
+    padding: 10px;
+}
+.abu{
+  padding: 20px;
+}
+
+
+
+
+.my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+  /* This only changes this particular animation duration */
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+/*  // All animations will take twice the time to accomplish*/
+document.documentElement.style.setProperty('--animate-duration', '2s');
+
+/* All animations will take half the time to accomplish*/
+document.documentElement.style.setProperty('--animate-duration', '.5s');
+/*<uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400*/
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  padding: 20px;
+  border-radius: 10px,10px,10px,10px;
+}
+.education
+{
+  justify-content: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #218838;
+}
+#education, #about ,#contact {
+  justify-content: center;
+}
